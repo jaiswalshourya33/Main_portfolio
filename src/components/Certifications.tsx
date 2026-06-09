@@ -19,15 +19,44 @@ export default function Certifications() {
   };
 
   const getTopicSkills = (title: string) => {
-    if (title.includes("Meta")) {
-      return ["React State Management", "Vite Development", "APIs & UI Testing", "Tailwind styling", "Responsive Design Webflow"];
-    }
-    if (title.includes("AWS")) {
-      return ["S3 & EC2 Provisioning", "IAM Access Management", "Serverless Lambda Node", "CloudWatch Metrics", "App Load Balancing"];
-    }
-    return ["MQL Database Querying", "Aggregation Framework Pipelines", "Indexing & Index optimization", "Compass GUI Configurations", "NoSQL Data Models"];
-  };
+  if (title.includes("GenAI")) {
+    return [
+      "Generative AI Fundamentals",
+      "Data Analytics",
+      "Prompt Engineering",
+      "Business Insights",
+      "AI Applications"
+    ];
+  }
 
+  if (title.includes("AWS")) {
+    return [
+      "Cloud Computing",
+      "EC2 & S3 Services",
+      "IAM Management",
+      "AWS Pricing",
+      "Cloud Security"
+    ];
+  }
+
+  if (title.includes("Hackathon")) {
+    return [
+      "Problem Solving",
+      "Team Collaboration",
+      "Innovation",
+      "Rapid Prototyping",
+      "Project Development"
+    ];
+  }
+
+  return [
+    "Technical Skills",
+    "Software Development",
+    "Continuous Learning",
+    "Project Management",
+    "Professional Growth"
+  ];
+};
   return (
     <section className="py-24 bg-cyber-low relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
@@ -39,7 +68,7 @@ export default function Certifications() {
             Professional <span className="text-cyber-primary">Credentials</span>
           </h2>
           <p className="max-w-md font-sans text-sm text-cyber-on-variant/70">
-            Verified key achievements and cloud system licenses obtained through academic reviews.
+Verified certifications, job simulations, and hackathon achievements demonstrating technical expertise and continuous learning.
           </p>
         </div>
 

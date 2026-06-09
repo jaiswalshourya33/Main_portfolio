@@ -46,7 +46,7 @@ export default function About() {
             </div>
             <div className="flex items-center gap-2 flex-wrap">
               <CalendarClock className="w-3.5 h-3.5 text-cyber-secondary" />
-              <span>Academic Period: 2021-2025 (ABES Engineering)</span>
+              <span>Academic Period: 2023-2027 (ABES Engineering College)</span>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function About() {
               </div>
             </div>
             <p className="font-sans text-xs text-cyber-on-variant/60 mt-4 leading-relaxed">
-              Successfully engineered, debugged, and shipped multi-tier client/server platforms.
+            Built, tested, and deployed multiple web applications while continuously learning modern development technologies.
             </p>
           </motion.div>
 
