@@ -133,7 +133,7 @@ export const projects: Project[] = [
     "A modern restaurant website showcasing featured dishes, menu categories, customer reviews, reservation options, and an elegant dining-themed user interface.",
   tags: ["HTML", "CSS", "JAVASCRIPT"],
   liveUrl: "https://celestial-bites.netlify.app/",
-  githubUrl: "https://github.com/jaiswalshourya33/Celestial-Bites",
+  githubUrl: "https://github.com/Parvchaudhary040/CELESTIAL-BITES",
   category: "Frontend"
 }
 ];
