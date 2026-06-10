@@ -89,7 +89,7 @@ export const projects: Project[] = [
     "A modern employee management dashboard displaying employee records, attendance statistics, performance metrics, and administrative controls with a clean and professional interface.",
   tags: ["REACT", "Tailwind CSS"],
   liveUrl: "https://portfolio-website-7ngd.vercel.app",
-  githubUrl: "https://github.com/jaiswalshourya33/employee-management-system",
+  githubUrl: "https://github.com/jaiswalshourya33/Employee-Management",
   category: "Frontend"
 },
   {

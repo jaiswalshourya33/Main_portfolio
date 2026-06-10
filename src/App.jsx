@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -14,6 +14,21 @@ import Loader from "./components/Loader";
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
 
+  // Theme State
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem("theme") !== "light";
+  });
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [darkMode]);
+
   const handleContactScroll = () => {
     const el = document.getElementById("contact");
     if (el) {
@@ -26,11 +41,14 @@ export default function App() {
       {isLoading ? (
         <Loader onComplete={() => setIsLoading(false)} />
       ) : (
-        <div className="min-h-screen bg-cyber-bg text-cyber-on-surface font-sans selection:bg-cyber-primary selection:text-cyber-on-primary">
-          {/* Dynamic Navigation HUD */}
-          <Navbar onContactClick={handleContactScroll} />
+        <div className="min-h-screen bg-white text-black dark:bg-cyber-bg dark:text-cyber-on-surface font-sans selection:bg-cyber-primary selection:text-cyber-on-primary transition-colors duration-500">
 
-          {/* Main Sections */}
+          <Navbar
+            onContactClick={handleContactScroll}
+            darkMode={darkMode}
+            setDarkMode={setDarkMode}
+          />
+
           <main className="pt-20 space-y-4 lg:space-y-12">
             <Hero />
             <About />
@@ -42,12 +60,9 @@ export default function App() {
             <Contact />
           </main>
 
-          {/* Footer Segment */}
           <Footer />
         </div>
       )}
     </>
   );
 }
-
-

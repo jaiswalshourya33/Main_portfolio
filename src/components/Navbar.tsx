@@ -78,7 +78,7 @@ export default function Navbar({ onContactClick }: NavbarProps) {
                 <motion.span
                   layoutId="activeIndicator"
                   className="absolute bottom-0 left-0 w-full h-[2px] bg-cyber-primary rounded-full shadow-[0_0_8px_rgba(168,232,255,0.7)]"
-                  transition={{ type: "smooth", stiffness: 380, damping: 30 }}
+                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
                 />
               )}
             </a>
