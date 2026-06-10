@@ -1,25 +1,131 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Shourya Jaiswal Portfolio
 
-# Run and deploy your AI Studio app
+A modern, responsive, and interactive personal portfolio website showcasing my projects, skills, certifications, education, achievements, and professional journey as a Full Stack Developer.
 
-This contains everything you need to run your app locally.
+## 🌐 Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/72b4faae-d768-4c51-aec8-9edcb8b641fc
+🔗 **Live Website:** https://main-portfolio-flame-ten.vercel.app/
 
-## Run Locally
+## 📌 About The Project
 
-**Prerequisites:**  Node.js
+This portfolio website serves as a central hub to showcase my technical expertise, projects, certifications, education, and development journey. Built with modern web technologies, it features a futuristic cyber-inspired UI, smooth animations, responsive layouts, and an engaging user experience.
 
+## ✨ Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
-# Main_portfolio
-🎮 A futuristic gaming-inspired portfolio website featuring immersive animations, interactive UI, and a showcase of my projects, skills, achievements, and web development journey.
->>>>>>> 5e8f1b843ca55f033796f32475c46160ff08a9bc
+* 🎨 Modern Cyberpunk-Inspired UI
+* 📱 Fully Responsive Design
+* ⚡ Smooth Animations with Framer Motion
+* 👨‍💻 Interactive Hero Section
+* 📝 About Me Section
+* 🛠️ Skills & Tech Stack Showcase
+* 📂 Featured Projects Gallery
+* 🎓 Education Timeline
+* 🏆 Certifications Section
+* 📄 Resume Download Feature
+* 📬 Contact Section
+* 🌙 Professional User Experience
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+
+### Tools & Platforms
+
+* Git & GitHub
+* VS Code
+* Vite
+* Vercel
+
+## 📂 Project Structure
+
+```bash
+src/
+├── assets/
+├── components/
+├── data.ts
+├── types.ts
+├── App.tsx
+└── main.tsx
+
+public/
+├── certificates/
+└── resume.pdf
+```
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/jaiswalshourya33/portfolio.git
+```
+
+### Navigate to the Project Directory
+
+```bash
+cd portfolio
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 📚 Sections Included
+
+* Hero
+* About Me
+* Skills
+* Projects
+* Education
+* Certifications
+* Resume
+* Contact
+* Footer
+
+## 📂 Featured Projects
+
+* Employee Management System
+* Weather Forecast Application
+* Personal Portfolio Website
+* Celestial Bites Restaurant Website
+* Future Grow Tech
+
+## 🏆 Certifications
+
+* GenAI Powered Data Analytics Job Simulation
+* AWS Certified Cloud Practitioner
+* AI Summit Hackathon
+
+## 📫 Connect With Me
+
+* 💻 GitHub: https://github.com/jaiswalshourya33
+* 💼 LinkedIn: https://www.linkedin.com/in/shourya-jaiswal-119b9b309/
+* 📧 Email: jaiswalshourya360@gmail.com
+* 🌐 Portfolio: https://main-portfolio-flame-ten.vercel.app/
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+---
+
+Made with ❤️ by **Shourya Jaiswal**
