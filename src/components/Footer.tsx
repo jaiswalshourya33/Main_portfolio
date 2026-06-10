@@ -17,13 +17,13 @@ export default function Footer() {
 
         {/* Year Label */}
         <div className="text-cyber-on-variant/40 font-mono text-center text-xs tracking-wider">
-          © {new Date().getFullYear()} Shourya Jaiswal • Engineered for the Future
+          © {new Date().getFullYear()} Shourya Jaiswal • Engineering for the Future
         </div>
 
         {/* Links */}
         <div className="flex gap-6 font-mono text-[11px] tracking-widest font-bold">
           <a
-            href="https://github.com"
+            href="https://github.com/jaiswalshourya33"
             target="_blank"
             rel="noreferrer"
             className="text-cyber-on-variant/60 hover:text-cyber-primary transition-all duration-300"
@@ -31,23 +31,16 @@ export default function Footer() {
             GITHUB
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/shourya-jaiswal-119b9b309/"
             target="_blank"
             rel="noreferrer"
             className="text-cyber-on-variant/60 hover:text-cyber-primary transition-all duration-300"
           >
             LINKEDIN
           </a>
+    
           <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noreferrer"
-            className="text-cyber-on-variant/60 hover:text-cyber-primary transition-all duration-300"
-          >
-            TWITTER
-          </a>
-          <a
-            href="mailto:shourya@sj.dev"
+            href="mailto:jaiswalshourya360@gmail.com"
             className="text-cyber-on-variant/60 hover:text-cyber-primary transition-all duration-300"
           >
             EMAIL

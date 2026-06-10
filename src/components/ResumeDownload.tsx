@@ -32,58 +32,22 @@ export default function ResumeDownload() {
     });
   };
 
-  const triggerActualTextDownload = () => {
-    // Generate actual downloadable resume text file to be functional
-    const resumeText = `
-=========================================
-SHOURYA JAISWAL - FULL STACK DEVELOPER
-=========================================
-Email: shourya@sj.dev | Website: SJ.DEV
-Academic Term: 2021 - 2025 (B.Tech in CSE)
+ const triggerActualTextDownload = () => {
+  const link = document.createElement("a");
+  link.href = "/resume.pdf";
+  link.download = "Shourya_Jaiswal_Resume.pdf";
 
-SUMMARY:
-High-performance, scalable full-stack developer with 2+ years
-of deep development experience. Proven record in reactive cloud apps
-and elegant schema structures.
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 
-TECHNICAL SKILLS:
-- Frontend: ReactJS (90%), HTML5/CSS3, Tailwind CSS (95%), JavaScript ES6+
-- Backend: Node.js (85%), Express (80%), Python, Java, Rest API Design
-- Database: MongoDB (75%), MySQL (85%), PostgreSQL, Redis
-- Systems: Docker, Git Version Control, AWS Cloud architecture, Figma UI Design
+  setDownloadState("downloaded");
 
-FEATURED PROJECTS:
-1. Future Grow Tech:
-   Comprehensive agriculture monitoring with predictive IoT analytics dashboard displays.
-2. Quiz Application:
-   Gamified concurrent duel sessions via real-time WebSockets & Firebase databases.
-3. Inventory CRUD Core:
-   Secure role-based access inventory controller dashboard with PostgreSQL.
-4. Energy Learning platform:
-   3D simulation modules modeled in Three.js and GSAP.
-
-=========================================
-SYSTEM LICENSE - COMNODE_KEY_2026
-=========================================
-    `.trim();
-
-    const blob = new Blob([resumeText], { type: "text/plain" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "Shourya_Jaiswal_Resume.txt";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-    setDownloadState("downloaded");
-
-    setTimeout(() => {
-      setDownloadState("idle");
-      setProgressOutput([]);
-    }, 4000);
-  };
-
+  setTimeout(() => {
+    setDownloadState("idle");
+    setProgressOutput([]);
+  }, 4000);
+};
   return (
     <section className="py-24 max-w-7xl mx-auto px-6 relative">
       <div className="absolute top-1/4 right-10 w-96 h-96 bg-cyber-secondary/5 rounded-full blur-[120px] pointer-events-none" />

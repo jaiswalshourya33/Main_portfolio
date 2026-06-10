@@ -3,7 +3,7 @@ import employeeManagementImg from "./assets/emp.png";
 import weatherAppImg from "./assets/weather.png";
 import portfolioImg from "./assets/portfolio.png";
 import resturantImg from "./assets/resturant.png";
-import tataCertificateImg from "./assets/tata.png";
+
 
 
 export const developerName = "Shourya Jaiswal";
@@ -119,7 +119,7 @@ export const projects: Project[] = [
   tags: ["REACT", "TAILWIND CSS", "JAVASCRIPT"],
   liveUrl: "https://portfolio-website-nu-ruby.vercel.app/",
   githubUrl: "https://github.com/jaiswalshourya33/Portfolio-website",
-  category: "Portfolio"
+  category: "Frontend"
 },
   {
   id: "project-4",
@@ -132,15 +132,31 @@ export const projects: Project[] = [
   imageAlt:
     "A modern restaurant website showcasing featured dishes, menu categories, customer reviews, reservation options, and an elegant dining-themed user interface.",
   tags: ["HTML", "CSS", "JAVASCRIPT"],
-  liveUrl: "https://your-celestial-bites-demo-link.com",
+  liveUrl: "https://celestial-bites.netlify.app/",
   githubUrl: "https://github.com/jaiswalshourya33/Celestial-Bites",
-  category: "Restaurant Website"
+  category: "Frontend"
 }
 ];
 
 export const educationHistory: EducationItem[] = [
   {
     id: "edu-1",
+    degree: "High School",
+    institution: "LA MATINA School",
+    period: "2020 - 2021",
+    description: "Completed Secondary Education with a strong academic foundation in Mathematics, Science, and Computer fundamentals. Demonstrated consistent academic excellence and active participation in school activities.",
+    gpa: "92%"
+  },
+  {
+    id: "edu-2",
+    degree: "Intermediate",
+    institution: "LA MATINA School",
+    period: "2022 - 2023",
+   description: "Completed Senior Secondary Education with a focus on Science and Mathematics, strengthening analytical thinking, problem-solving abilities, and foundational technical knowledge.",
+gpa: "80.4%"
+  },
+  {
+    id: "edu-3",
     degree: "B.Tech in Computer Science Engineering (Data Science)",
     institution: "ABES Engineering College",
     period: "2023 - 2027",
@@ -176,5 +192,5 @@ export const certifications: Certification[] = [
   }
 ];
 
-export const resumePreviewUrl = "https://lh3.googleusercontent.com/aida-public/AB6AXuDzoJd-hZ04yaAVbpMtZXS_tfcH6UJQ2E9821Vaz_ECDbuaLTfcL0EyQsKqKrdV3AWmnkbAGWPpDxTEAnYHUAFJsFBWKqDyoTS2QQvcUaQtgI9b21n9TreQQsxMP-txMZI7Er279FtVE953d6Ut-rpros1rkzXIFVA1zSc6L_vgR0XFXN1P-MrUntKgNx7-sG-QAeiwRZUk7b6YCdccilubVhT5dSmosAdYYO8kvQA4xZmmIHB1_dVmhOnTg20XMR43XjeGm3zV9PI";
-export const contactEmail = "shourya@sj.dev";
+export const resumePreviewUrl = "res.png";
+export const contactEmail = "jaiswalshourya360@gmail.com";

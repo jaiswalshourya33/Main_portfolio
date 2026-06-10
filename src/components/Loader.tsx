@@ -32,7 +32,7 @@ export default function Loader({ onComplete }: LoaderProps) {
         const next = prev + Math.floor(Math.random() * 8) + 4;
         return next > 100 ? 100 : next;
       });
-    }, 100);
+    }, 200);
 
     return () => clearInterval(progressInterval);
   }, []);

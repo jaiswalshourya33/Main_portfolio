@@ -8,6 +8,7 @@ import {
 } from "../data";
 
 export default function Hero() {
+  const heroText = `Hello, I'm ${developerName}`;
   return (
     <section className="min-h-[85vh] lg:min-h-[90vh] flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto px-6 py-16 relative overflow-hidden">
       
@@ -29,17 +30,25 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight"
-        >
-          Hello, I'm <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-primary via-white to-cyber-secondary">
-            {developerName}
-          </span>
-        </motion.h1>
+        <motion.h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+  Hello, I'm <br />
+
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-primary via-white to-cyber-secondary">
+    {developerName.split("").map((char, index) => (
+      <motion.span
+        key={index}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          delay: 0.1 + index * 0.025,
+          duration: 0.03,
+        }}
+      >
+        {char}
+      </motion.span>
+    ))}
+  </span>
+</motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
