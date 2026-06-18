@@ -3,6 +3,7 @@ import employeeManagementImg from "./assets/emp.png";
 import weatherAppImg from "./assets/weather.png";
 import portfolioImg from "./assets/portfolio.png";
 import resturantImg from "./assets/resturant.png";
+import ecosortImg from "./assets/ecosort.png";
 
 
 
@@ -135,6 +136,21 @@ export const projects: Project[] = [
   liveUrl: "https://celestial-bites.netlify.app/",
   githubUrl: "https://github.com/Parvchaudhary040/CELESTIAL-BITES",
   category: "Frontend"
+},
+
+{
+  id: "project-5",
+  title: "EcoSort - AI-Powered Waste Management System",
+  description: "EcoSort AI is an AI-powered waste segregation assistant that identifies waste from text or images, classifies it into categories, provides disposal recommendations, promotes recycling awareness, and supports sustainable waste management aligned with SDG 12.",
+  longDescription:
+    "EcoSort AI is an AI-powered waste segregation assistant that identifies waste from text or images, classifies it into appropriate categories, and provides disposal and recycling recommendations to promote sustainable waste management.",
+  image: ecosortImg,
+  imageAlt:
+    "A modern AI-powered waste segregation platform that classifies waste from text and images, provides disposal recommendations, promotes recycling awareness, and supports sustainable waste management through an intuitive user interface.",
+  tags: ["REACT", "Tailwind CSS", "Typescript"],
+  liveUrl: "https://ecosort-ai-frfw.onrender.com",
+  githubUrl: "https://github.com/jaiswalshourya33/EcoSort-AI-",
+  category: "AI/ML"
 }
 ];
 
