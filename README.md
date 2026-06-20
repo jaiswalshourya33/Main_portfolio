@@ -1,25 +1,72 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🎮 Shourya Jaiswal Portfolio
 
-# Run and deploy your AI Studio app
+A futuristic gaming-inspired portfolio website showcasing my projects, technical skills, achievements, certifications, and journey as a Full Stack Developer. Built with modern web technologies, interactive UI elements, smooth animations, and a responsive design to create an engaging and professional user experience.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
 
-View your app in AI Studio: https://ai.studio/apps/72b4faae-d768-4c51-aec8-9edcb8b641fc
+🔗 **Live Website:** https://main-portfolio-flame-ten.vercel.app
 
-## Run Locally
+## 📖 About The Project
 
-**Prerequisites:**  Node.js
+This portfolio serves as a central hub for showcasing my work, skills, and accomplishments as a Computer Science student and aspiring Full Stack Developer. It features a modern gaming-inspired design with immersive visuals, smooth interactions, and a clean user experience. The website highlights my technical expertise, featured projects, educational background, certifications, and provides an easy way for recruiters and collaborators to connect with me.
 
+## ✨ Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
-# Main_portfolio
-🎮 A futuristic gaming-inspired portfolio website featuring immersive animations, interactive UI, and a showcase of my projects, skills, achievements, and web development journey.
->>>>>>> 5e8f1b843ca55f033796f32475c46160ff08a9bc
+* 🎮 Futuristic gaming-inspired design
+* ⚡ Smooth animations and interactive UI
+* 🌟 Modern and responsive layout
+* 💻 Skills and Tech Stack showcase
+* 🚀 Featured Projects section
+* 🎓 Education timeline
+* 📜 Certifications and achievements
+* 📄 Resume download functionality
+* 📬 Contact form and social media links
+* 🔥 Optimized for desktop and mobile devices
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* JavaScript
+* Tailwind CSS
+* Typescript 
+
+### Animation & Design
+
+* Framer Motion
+* Modern Responsive Design
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Vite
+
+## 📂 Website Sections
+
+* 🏠 Home
+* 👨‍💻 About Me
+* 💡 Skills
+* ⚙️ Tech Stack
+* 🚀 Projects
+* 🎓 Education
+* 📜 Certifications
+* 📄 Resume
+* 📬 Contact
+* 🔗 Footer
+
+## 📬 Connect With Me
+
+* GitHub: https://github.com/jaiswalshourya33
+* LinkedIn: https://www.linkedin.com/in/shourya-jaiswal-119b9b309/
+* Email: jaiswalshourya360@gmail.com
+
+## ⭐ Support
+
+If you like this project, consider giving it a star on GitHub and sharing your feedback.
+
+---
+
+© 2026 Shourya Jaiswal. All Rights Reserved.
